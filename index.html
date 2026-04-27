@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Raghul - UIUX Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="./Asset/Image/Fav_Icon.svg">
+    <script src="javaScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="#home" class="logo">
+            <img src="Asset/Image/logo (2).svg" >
+        </a>
+        <ul class="service_list_header">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#domain">Domain</a></li>
+            <li><a href="#teams">Teams</a></li>
+        </ul>
+        <a href="#schedule" class="contact-btn">CONTACT ME</a>
+        <div class="hamburger" onclick="toggleMenu(event)">
+            <img src="Asset/Icon/Hamburger.svg" class="menu-icon">
+            <img src="Asset/Icon/close.svg" class="close-icon">
+        </div>
+    </div>
+    <div class="side-nav" id="sideMenu">
+        <ul class="service_list_header1">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#domain">Domain</a></li>
+            <li><a href="#teams">Teams</a></li>
+        </ul>
+        <a href="#schedule" class="contact-btn1">CONTACT ME</a>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <section class="hero" id="home">
+        <div class="hero-top"></div>
+        <div class="hero-center">
+            <div class="hero-left">
+                <div class="hero-left-image">
+                    <img src="Asset/Image/luffy.svg">
+                </div>
+                <div>
+                    <div class="hero-left-name">I`m <span style="text-decoration: underline; font-weight: bold; ">Ravi Raghul</span></div>
+                    <div class="hero-role">Product & UIUX Designer</div>
+                </div>
+                <div class="hero-left-paragraph">
+                    <div>I`m a UIUX Designer who turns complex problems into intuitive solution for users. My work combine empathy, strategic thinking, and visual storytelling to craft meaningful digital experiences.</div>
+                </div>
+                <div style="display: flex; gap: 16px;">
+                    <a href="#schedule" class="hero-left-btn">
+                        <div>HIRE ME</div>
+                        <img src="Asset/Icon/arrow_right.svg">
+                    </a>
+                    <a href="Asset/Download/Ravi Raghul UIUX Designer .pdf" download="Ravi Raghul UIUX Designer" class="hero-left-btn1">DOWNLOAD CV</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="image-wrapper">
+                    <div class="image-rotation">
+                        <div><img src="Asset/Image/img_blob.svg" alt=""></div>
+                        <img src="Asset/Image/Img_rot8.svg" class="frame f1">
+                        <img src="Asset/Image/Img_rot7.svg" class="frame f2">
+                        <img src="Asset/Image/Img_rot6.svg" class="frame f3">
+                        <img src="Asset/Image/Img_rot5.svg" class="frame f4">
+                        <img src="Asset/Image/Img_rot4.svg" class="frame f5">
+                        <img src="Asset/Image/Img_rot3.svg" class="frame f6">
+                        <img src="Asset/Image/Img_rot2.svg" class="frame f7">
+                        <img src="Asset/Image/Img_rot1.svg" class="frame f8">
+                    </div>
+                </div>
+                <div class="main_hero_image">
+                    <img src="Asset/Image/main_hero.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="hero-bottom">     
+            <div class="quote">
+                <div class="quote-scroll">
+                    <div class="quote-track">
+                        <span>
+                            <img src="Asset/Icon/charm.svg">
+                            <div>“ Design isn`t finished until someone using it. - Brenda Laurel ”</div>
+                            <img src="Asset/Icon/charm.svg">
+                        </span>
+                        <span>
+                            <div>“ Design isn`t finished until someone using it. - Brenda Laurel ”</div>
+                            <img src="Asset/Icon/charm.svg">
+                        </span>
+                    </div>
+                    <div class="quote-track">
+                        <span>
+                            <div>“ Design isn`t finished until someone using it. - Brenda Laurel ”</div>
+                            <img src="Asset/Icon/charm.svg">
+                        </span>
+                        <span>
+                            <div>“ Design isn`t finished until someone using it. - Brenda Laurel ”</div>
+                            <img src="Asset/Icon/charm.svg">
+                        </span>
+                        <span>
+                            <div>“ Design isn`t finished until someone using it. - Brenda Laurel ”</div>
+                            <img src="Asset/Icon/charm.svg">
+                        </span>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </section>
+    <section class="about-me" id="about-me">
+        <div class="about_topic">
+            <div>About Me</div>
+        </div>
+        <div class="about_header">
+            <div>Who is Ravi Raghul?</div>
+        </div>
+        <div class="about_para">
+            <p>I'm a UI/UX designer dedicated to creating seamless digital experiences that connect users and brands. With expertise in user research, wireframing, and prototyping, I translate complex ideas into intuitive, accessible interfaces. My designs not only look great but also enhance usability and drive engagement. </p>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <div class="service_content">
+            <div class="service_header">
+                <div>Service</div>
+            </div>                      
+            <div class="service_title">
+                <div>Service Expertise</div>
+            </div> 
+            <div class="service-sub-title">
+                <div>Combining deep industry knowledge with innovative techniques to deliver standout solutions. Our expertise spans UI/UX design branding, development and motion</div>
+            </div>
+        </div>
+        <div class="service_list">
+            <div class="card uiux_design">
+                <div>UIUX Design</div>
+                <img src="Asset/Image/uiux_default .svg" alt="">
+                <div class="expand ui">
+                    <div>UIUX Design</div>
+                    <img src="Asset/Image/uiux_Expand.png" class="expand_img_1">
+                    <ul>
+                        <li>Create user-centered designs balancing aesthetics and functionality.</li>
+                        <li>Conduct research, wireframing, prototyping, and usability testing.</li>
+                        <li>Craft seamless digital experiences solving real user problems.</li>
+                        <li>Align designs with business goals and user needs.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card branding">
+                <div>Branding</div>
+                <img src="Asset/Image/branding_default.svg" alt="">
+                <div class="expand pho">
+                    <div>Branding</div>
+                    <img src="Asset/Image/branding_expand.png" class="expand_img_2">
+                    <ul>
+                        <li>Develop comprehensive brand identities that reflect your vision and values.</li>
+                        <li>Create logos, marketing materials, and digital graphics aligned with your brand voice.</li>
+                        <li>Incorporate product design principles to deliver consistent, engaging user experiences.</li>
+                        <li>Produce dynamic video content—including promotional videos and tutorials—that strengthens brand storytelling.</li>
+                        <li>Ensure all visual and multimedia elements work together to build memorable, impactful brands.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card development">
+                <div>Development</div>
+                <img src="Asset/Image/devlopenment_ default.svg" alt="">
+                <div class="expand dev">
+                    <div>Development</div>
+                    <img src="Asset/Image/developement_expand.png" class="expand_img_3">
+                    <ul>
+                        <li>Build responsive, accessible web interfaces with HTML, CSS, JS.</li>
+                        <li>Ensure pixel-perfect implementation aligned with design.</li>
+                        <li>Guarantee functional, user-friendly experiences across devices.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card motion_graphics">
+                <div>Motion Graphics</div>
+                <img src="Asset/Image/motion_graphics.png" alt="">
+                <div class="expand mg">
+                    <div>Motion Graphics</div>
+                    <img src="Asset/Image/motion-graphics_expand.png" class="expand_img_4">
+                    <ul>
+                        <li>Design compelling animated visuals to enhance storytelling and user engagement.</li>
+                        <li>Create explainer videos, micro-animations, UI transitions, and logo animations for digital products.</li>
+                        <li>Use motion to communicate ideas, guide attention, and add depth to interfaces.</li>
+                        <li>Deliver optimized files suitable for web, social media, and app integration.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="projects">
+        <div class="project-content">
+            <div class="project-header">
+                <div>Projects</div>
+            </div>
+            <div class="project-title">
+                <div>Projects & Case Studies</div>
+            </div>
+            <div class="project-sub-title">
+                <div>A collection of real projects where I applied UX research, strategy, and visual design to solve business problems.</div>
+            </div>
+        </div>
+        <div class="list-of-projects">
+            <div class="pro-card">
+                <div class="pro-img left-1">
+                    <div class="img-swap">
+                        <img src="Asset/Image/pro_card_1.1.png" class="swap-img top">
+                        <img src="Asset/Image/pro_card_1.2.svg" class="swap-img middle">
+                        <img src="Asset/Image/pro_card_1.3.png" class="swap-img bottom">        
+                    </div>                    
+                </div>
+                <div class="pro-detail right-1">
+                    <div class="pro-tag">
+                        Mobile, Web & Dashboard
+                    </div>
+                    <div class="pro-title">
+                        <div>Electric Vehicle Charging Station Finder Application.</div>
+                    </div>
+                    <div class="pro-para">
+                        <div>Designed a mobile app, web app, and admin dashboard that streamline the EV charging experience. Users can easily find charging stations, check real-time availability, book slots, track charging progress, and make secure payments.</div>
+                        <div>A unified ecosystem built for a faster, smarter, and more transparent EV charging experience.</div>
+                    </div>
+                    <a href="https://www.behance.net/gallery/184505607/EV-Charging-Station-Application-UED" target="_blank" class="pro-btn">
+                        <div>See Details</div>
+                        <img src="Asset/Icon/arrow_right_purple.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="pro-card-2">
+                <div class="pro-detail left-2">
+                    <div class="pro-tag">
+                        Mobile Design
+                    </div>
+                    <div class="pro-title">
+                        <div>E - Learning Platform</div>
+                    </div>
+                    <div class="pro-para">
+                        <div>Designed a focused mobile e-learning platform that helps students, engineers, site supervisors, and technicians learn concrete technology through structured modules, videos, quizzes, and real-world examples.</div>
+                        <div>Built to make technical learning accessible, mobile-first, and industry-relevant for anyone working with concrete.</div>
+                    </div>
+                    <a href="https://www.behance.net/gallery/189836705/E-learning-Application-Ready-Mix-Concrete-Civil" target="_blank" class="pro-btn">
+                        <div>See Details</div>
+                        <img src="Asset/Icon/arrow_right_purple.svg" alt="">
+                    </a>
+                </div>
+                <div class="pro-img right-2">
+                    <div class="img-swap">
+                        <img src="Asset/Image/pro_card_2.1.png" class="swap-img top">
+                        <img src="Asset/Image/pro_card_2.2.png" class="swap-img middle">
+                        <img src="Asset/Image/pro_card_2.3.png" class="swap-img bottom">
+                    </div>
+                </div>
+            </div>
+            <div class="pro-card">
+                <div class="pro-img left-3">
+                    <div class="img-swap">
+                        <img src="Asset/Image/pro_card_3.1.png" class="swap-img top">
+                        <img src="Asset/Image/pro_card_3.2.png" class="swap-img middle">
+                        <img src="Asset/Image/pro_card_3.3.svg" class="swap-img bottom">
+                    </div>
+                </div>
+                <div class="pro-detail right-3">
+                    <div class="pro-tag">
+                        Mobile & Dashboard
+                    </div>
+                    <div class="pro-title">
+                        <div>Fitness Tracking App & Dashboard</div>
+                    </div>
+                    <div class="pro-para">
+                        <div>Designed a mobile fitness tracking app paired with an admin dashboard to help users build healthy habits and enable trainers to monitor progress in real time.</div>
+                        <div>A unified ecosystem built for a faster, smarter, and more transparent EV charging experience.</div>
+                    </div>
+                    <a href="https://www.behance.net/gallery/194157405/GETFIT-Home-Fitness-Application-UIUX-Design" target="_blank" class="pro-btn">
+                        <div>See Details</div>
+                        <img src="Asset/Icon/arrow_right_purple.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-footer">
+            <p style="text-decoration: underline;">
+                Check Out More
+            </p>
+            <a href="https://www.behance.net/raviraghul3" target="_blank" class="pro-footer-btn">
+                <div>Explore More</div>
+                <img src="Asset/Icon/arrow_right.svg" alt="">
+            </a>
+        </div>
+    </section>
+    <section class="skills" id="skill">
+        <div class="skill-main">
+            <div class="skill-left">
+                <div class="skill-left-top">
+                    <div class="skill-header">Skills</div>
+                    <div class="skill-title">What I Do</div>
+                    <div class="skill-para">Combining user-centered design, visual branding, front-end understanding, and motion storytelling to deliver polished digital products.</div>
+                    <div class="skill-list-of-btn">
+                        <button class="skill-btn active u-1" data-target="skill-uiux">UIUX Design</button>
+                        <button class="skill-btn b-2" data-target="skill-branding">Branding</button>
+                        <button class="skill-btn d-3" data-target="skill-development">Development</button>
+                        <button class="skill-btn m-4" data-target="skill-motion-graphics">Motion Graphics</button>
+                    </div>
+                </div>
+                <div class="skill-left-bottom">
+                    <div class="skill-uiux skill-group active">
+                        <div class="skill">
+                            <img src="Asset/Image/1.User-Research&Personas.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">User Research</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.User-Flows&User-Journey.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">User Flows & User Journey</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Information-Architecture.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Information Architecture</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Screen-Wireframing.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Screen Wireframing</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Design-Prototyping.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Design Prototyping</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Interaction-Design.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Interaction Design</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Usability-Testing.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Usability Testing</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Design-Systems.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Design Systems</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.Mobile-&-Web-UI-Design.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Mobile & Web Design</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/1.UX-Handoff.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">UX Handoff</div>
+                            <img src="Asset/Image/1.UIUX-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                    </div>
+                    <div class="skill-branding skill-group">
+                        <div class="skill">
+                            <img src="Asset/Image/2.Brand-Identity.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Brand Identity</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Logo-Design.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Logo Design</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Visual-Language.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Visual Language</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Design-Typography.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Design Typography</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Color-Strategy.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Color Strategy</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Style-Guides.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Style Guides</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Brand-Consistency.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Brand Consistency</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Marketing-Assets.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Marketing Assets</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.Creative-Direction.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Creative Direction</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/2.brand-storytelling.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Brand Storytelling</div>
+                            <img src="Asset/Image/2.branding-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                    </div>
+                    <div class="skill-development skill-group">
+                        <div class="skill">
+                            <img src="Asset/Image/3.html5.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">HTML 5</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.css.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">CSS 3</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Responsive-Design.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Responsive Design</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Basic-JavaScript.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Basic JavaScript</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Component-Thinking.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Component Thinking</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Design-to-Code.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Design to Code</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Developer-Handoff.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Developer Handoff</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Accessibility.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Accessibility</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Performance-Friendly-UI.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Performance-Friendly UI</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/Image/3.Front-End-Collaboration.svg" class="skill-top-img" alt="">
+                            <div class="skill-cont">Front-End Collaboration</div>
+                            <img src="Asset/Image/3.developement-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                    </div>
+                    <div class="skill-motion-graphics skill-group">
+                        <div class="skill">
+                            <img src="Asset/Image/GIF/4.UI-Animations.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">UI Animations</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Micro-Interactions.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Micro-Interactions</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Motion-Principles.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Motion Principles</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Animated-Icons.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Animated Icons</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Screen-Transitions.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Screen Transitions</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Prototype-Animations.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Prototype Animations</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Motion-Storyboarding.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Motion Storyboarding</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Motion-for-Branding.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Motion for Branding</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Lottie-Animations.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Lottie Animations</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                        <div class="skill">
+                            <img src="Asset/GIF/4.Visual-Feedback.gif" class="skill-top-img" alt="">
+                            <div class="skill-cont">Visual Feedback</div>
+                            <img src="Asset/Image/4.Motion-bottom.svg" class="skill-btm-img" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-right">
+                <img src="Asset/Image/law-uiux.svg" class="skill-img active" data-img="skill-uiux">
+                <img src="Asset/Image/doflamingo-branding.svg" class="skill-img" data-img="skill-branding">
+                <img src="Asset/Image/robin-development.svg" class="skill-img" data-img="skill-development">
+                <img src="Asset/Image/sanji-motion-graphics.svg" class="skill-img" data-img="skill-motion-graphics">
+            </div>
+        </div>
+    </section>
+    <section class="domain" id="domain">
+        <div class="domain-top">
+            <div class="domain-header">Domain</div>     
+            <div class="domain-title">Domains I’ve Worked In</div>    
+            <div class="domain-para">Designing user-centered digital experiences across diverse industries and platforms.</div>   
+        </div>
+        <div class="domain-bottom">
+            <div class="list-of-domain-right i-1">
+                <div class="domain-cont">
+                    <div class="dom-header h">Health & Fitness</div>
+                    <div class="dom-sub-heading">Building wellness-focused applications that track activity, performance, and user goals through clear and motivating UX.</div>
+                </div>
+                <img src="Asset/Image/domain-1.svg" alt="">
+            </div>
+            <div class="list-of-domain-right i-2">
+                <div class="domain-cont">
+                    <div class="dom-header a">Architecture & Civil Domain</div>
+                    <div class="dom-sub-heading">Designing industry-specific platforms for BOQ, site audits, material management, and construction workflows.</div>
+                </div>
+                <img src="Asset/Image/domain-2.svg" alt="">
+            </div>
+            <div class="list-of-domain-left i-3">
+                <img src="Asset/Image/domain-3.svg" alt="">
+                <div class="domain-cont">
+                    <div class="dom-header c">CRM / ERP Systems</div>
+                    <div class="dom-sub-heading">Creating scalable, role-based dashboards and systems that streamline operations, data management, and decision-making.</div>
+                </div>
+            </div>
+            <div class="list-of-domain-left i-4">
+                <img src="Asset/Image/domain-4.svg" alt="">
+                <div class="domain-cont">
+                    <div class="dom-header f">Fintech</div>
+                    <div class="dom-sub-heading">Designing secure, intuitive financial interfaces that simplify transactions, data visibility, and user trust.</div>
+                </div>
+            </div>
+            <div class="list-of-domain-left i-5">
+                <img src="Asset/Image/domain-5.svg" alt="">
+                <div class="domain-cont">
+                    <div class="dom-header e">E-Commerce</div>
+                    <div class="dom-sub-heading">Designing seamless shopping experiences with optimized product discovery, checkout flows, and conversion-focused UI.</div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- <section class="teams" id="teams">
+        <div class="team-top">
+            <div class="team-header">Teams</div>
+            <div class="team-title">Let`s Meet Our Team</div>
+            <div class="team-para">Collaborating to build complete digital products. This collaboration ensures seamless user experiences, strong mobile performance, and reliable backend systems.</div>
+        </div>
+        <div class="team-bottom">
+            <div class="member-card">
+                <div class="member-detail">
+                    <div class="member-image">
+                        <img src="Asset/Image/member-1.svg">
+                    </div>
+                    <div class="member-social">
+                        <img src="Asset/Icon/line.svg">
+                        <a href="https://x.com/ravi_raghul_19?s=21" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/twitter.svg">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ravi-raghul-b-202725275?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/linkedin-white.svg">
+                        </a>
+                        <a href="https://www.instagram.com/iam_raghul_19?igsh=OWg0bDR1Y3dmbm5u&utm_source=qr" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/insta.svg">
+                        </a>
+                        <img src="Asset/Icon/line.svg" class="line-1">
+                    </div>                    
+                </div>
+                <div class="member-name">Ravi Raghul B</div>
+                <div class="member-role">UIUX & Product Designer</div>
+            </div>
+            <div class="member-card">
+                <div class="member-detail">
+                    <div class="member-image">
+                        <img src="Asset/Image/member-2.svg" alt="">
+                    </div>
+                    <div class="member-social">
+                        <img src="Asset/Icon/line.svg">
+                        <a href="" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/twitter.svg">
+                        </a>
+                        <a href="https://www.linkedin.com/in/marolean-james-478bb3205?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/linkedin-white.svg">
+                        </a>
+                        <a href="https://www.instagram.com/marolean_james?igsh=dXlla2h5OGdtd3J4" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/insta.svg">
+                        </a>
+                        <img src="Asset/Icon/line.svg" class="line-1">
+                    </div>                       
+                </div>
+                <div class="member-name">Marolean James</div>
+                <div class="member-role">IOS Developer, Flutter</div>
+            </div>
+            <div class="member-card">
+                <div class="member-detail">
+                    <div class="member-image">
+                        <img src="Asset/Image/member-3.svg" alt="">
+                    </div>
+                    <div class="member-social">
+                        <img src="Asset/Icon/line.svg">
+                        <a href="" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/twitter.svg">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ajay-prakash-k-6ba854221?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/linkedin-white.svg">
+                        </a>
+                        <a href="https://www.instagram.com/samsapiol.py?igsh=NHBua3FteGpsam11" target="_blank" class="social-icon">
+                            <img src="Asset/Icon/insta.svg">
+                        </a>
+                        <img src="Asset/Icon/line.svg" class="line-1">
+                    </div>                 
+                </div>
+                <div class="member-name">Ajay Prakash</div>
+                <div class="member-role">Python Developer, Dot Net </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section class="testimonials" id="testimonials">
+        <div class="test-top">
+            <div class="test-header">Testimonials</div>
+            <div class="test-title">What people say about working with me.</div>
+        </div>
+        <div class="test-bottom">
+            <div class="test-left">
+                <img src="Asset/Image/double-quote.svg" class="double-quo">
+                <div class="test-slider">
+                    <div class="test-track">
+                        <div class="test-card active">
+                            <div class="user-comment">Working with Ravi and his team was a smooth and well-organized experience. From design to development, the collaboration was seamless, and every stage of the product was handled with clarity. The UI/UX design, iOS development, and backend implementation came together perfectly to deliver a reliable and user-friendly solution.</div>
+                            <div class="user-detail">
+                                <div class="user-name">Joseph Anthony</div>
+                                <img src="Asset/Image/center.svg" alt="">
+                                <div class="user-role">Entrepreneur</div>
+                            </div>
+                            <div class="user-rating">
+                                <img src="Asset/Image/5.0star.svg" alt="">
+                                <div>(5.0)</div>
+                            </div>
+                        </div>
+                        <div class="test-card">
+                            <div class="user-comment">Ravi and his team demonstrated a strong understanding of both user experience and technical execution. Design decisions were well thought out, and the development team implemented them accurately and efficiently. Communication was clear throughout the project, which helped us stay aligned and confident at every step.</div>
+                            <div class="user-detail">
+                                <div class="user-name">Susila Devi</div>
+                                <img src="Asset/Image/center.svg" alt="">
+                                <div class="user-role">Stake Holder</div>
+                            </div>
+                            <div class="user-rating">
+                                <img src="Asset/Image/4.5-star.svg" alt="">
+                                <div>(4.5)</div>
+                            </div>
+                        </div>
+                        <div class="test-card">
+                            <div class="user-comment">The teamwork between design and development really stood out. Ravi ensured the UX was intuitive and consistent, while the iOS and Python developers delivered a stable and scalable product. The result was a well-balanced solution that met both user needs and business goals.</div>
+                            <div class="user-detail">
+                                <div class="user-name">Kiran Matthew</div>
+                                <img src="Asset/Image/center.svg" alt="">
+                                <div class="user-role">Business Manager</div>
+                            </div>
+                            <div class="user-rating">
+                                <img src="Asset/Image/4.0-star.svg" alt="">
+                                <div>(4.0)</div>
+                            </div>
+                        </div>
+                        <div class="test-card">
+                            <div class="user-comment">Ravi and his team handled the project with professionalism and attention to detail. The coordination between UI/UX design, mobile development, and backend systems was excellent. The final product was delivered on time and exceeded our expectations in terms of usability and performance.</div>
+                            <div class="user-detail">
+                            <div class="user-name">Sam Willams</div>
+                                <img src="Asset/Image/center.svg" alt="">
+                                <div class="user-role">Marketing Head</div>
+                            </div>
+                            <div class="user-rating">
+                                <img src="Asset/Image/4.5-star.svg" alt="">
+                                <div>(4.5)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="user-pagination">
+                    <div class="btn-arrow" id="prevbtn"> 
+                        <img src="Asset/Icon/arrow-left-white.svg" alt="">
+                    </div>
+                    <div class="dots">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="btn-arrow active" id="nextbtn"> 
+                        <img src="Asset/Icon/arrow-right-white.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="test-right">
+                <img src="Asset/Image/user-1.svg" class="user-img active">
+                <img src="Asset/Image/user-2.svg" class="user-img">
+                <img src="Asset/Image/user-3.svg" class="user-img">
+                <img src="Asset/Image/user-4.svg" class="user-img">
+            </div>
+        </div>
+    </section> -->
+    <section class="schedule" id="schedule">
+        <form id="scheduleForm">
+            <div class="schedule-main">
+                <div class="sche-top">
+                    <div class="sche-title">Got a Vision? Let’s Bring it to Life?</div>
+                    <div class="sche-para">I am always excited to collaborate on new and innovative projects whether you’re starting from scratch or refining an exisiting idea.</div>
+                </div>
+                <div class="sche-bottom">
+                    <div class="sche-name">
+                        <input type="text" id="name" placeholder="Name" required>
+                        <input type="tel" id="mobile" placeholder="Mobile number" required>
+                        <input type="email" id="email" placeholder="E-mail address" required>
+                    </div>
+                    <div class="description" >
+                        <textarea id="message" placeholder="Work description" required></textarea>
+                    </div>
+                    <button type="submit" class="sche-btn" id="submitBtn" disabled>
+                        <span>SUBMIT</span>
+                        <img src="Asset/Icon/arrow_right.svg">
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="success-popup" id="successPopup">
+                <div class="success-box">
+                    <h3>✅ Message Sent</h3>
+                    <p>I’ll get back to you soon.</p>
+                </div>
+            </div>
+            <div class="error-popup" id="errorPopup">
+                <div class="error-box">
+                    <h3 style="padding-bottom: 12px;">❌ Failed</h3>
+                    <p>Something went wrong.</p>
+                </div>
+            </div>
+    </section>
+    <section class="footer">
+        <div class="footer-top">
+            <div class="footer-main">
+                <img src="Asset/Image/logo-footer.svg">
+                <div class="name-hero">Ravi Raghul B</div>
+                <div class="role-hero">UI/UX Designer | Branding | Motion | Development</div>
+                <div class="description-hero">I’m a UI/UX Designer creating intuitive digital experiences across mobile, web, and dashboards. Skilled in UI/UX, branding, development collaboration, and motion graphics, I focus on usability and visual consistency. I work closely with iOS and Python developers to deliver scalable, functional products.</div>
+            </div>
+            <div class="contact-details">
+                <div class="contact">
+                    <div class="footer-heading">Contact</div>
+                    <a href="mailto:raviraghul002@gmail.com" class="email">
+                        <img src="Asset/Icon/mail.svg">
+                        <div>raviraghul002@gmail.com</div>
+                    </a>
+                    <div class="number">
+                        <img src="Asset/Icon/phone.svg">
+                        <div>+91 9944801031</div>
+                    </div>
+                </div>
+                <div class="quicklinks">
+                    <div class="footer-heading">Quicklinks</div>
+                    <div>
+                        <a href="www.behance.net/raviraghul3" target="_blank"><img src="Asset/Icon/Behance.svg" ></a>
+                        <a href="www.linkedin.com/in/ravi-raghul-b-202725275?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank"><img src="Asset/Icon/Linkedin.svg"></a>
+                        <a href="https://x.com/ravi_raghul_19?s=21" target="_blank"><img src="Asset/Icon/Twitter_color.svg"></a>
+                        <a href="https://www.instagram.com/iam_raghul_19?igsh=OWg0bDR1Y3dmbm5u&utm_source=qr" target="_blank"><img src="Asset/Icon/Instagram.svg" ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-service">
+                <div class="footer-heading">Services</div>
+                <ul class="service-btn">
+                    <a href="#home">Home</a>
+                    <a href="#service">Service</a>
+                    <a href="#projects">Project</a>
+                    <a href="#skill">Skill</a>
+                    <a href="#domain">Domain</a>
+                    <a href="#teams">Teams</a>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div style="text-align: center;">© 2025 Ravi Raghul. All rights reserved.</div>
+        </div>
+    </section>
+
+
+</body>
+</html>
