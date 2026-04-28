@@ -1153,13 +1153,17 @@ body.no-scroll{
 }
 
 .pro-footer-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
     padding: 8px 12px 8px 12px;
     width: auto;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    display: flex;
-    gap: 12px;
+
+    gap: 10px;
     color: #fff;
 }
 
@@ -2426,9 +2430,9 @@ body.no-scroll{
     }
 
     .pro-footer-btn{
-        font-size: 14px;
-        height: 36px;
+        font-size: 16px;
     }
+
 
     .pro-card, .pro-card-2{
         flex-direction: column;
