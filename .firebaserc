@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "default": "ravi-raghul-uiux"
+  },
+  "targets": {
+    "ravi-raghul-uiux-designer": {
+      "hosting": {
+        "mysite": [
+          "raviraghul"
+        ]
+      }
+    },
+    "ravi-raghul-uiux": {
+      "hosting": {
+        "old": [
+          "ravi-raghul-uiux-designer"
+        ],
+        "live": [
+          "raviraghul"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

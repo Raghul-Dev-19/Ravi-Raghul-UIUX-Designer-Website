@@ -1,0 +1,12 @@
+{
+  "hosting": [
+    {
+      "target": "old",
+      "public": "redirect-site"
+    },
+    {
+      "target": "live",
+      "public": "."
+    }
+  ]
+}
